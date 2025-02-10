@@ -37,6 +37,12 @@ const Sidebar = () => {
             <span>Reports</span>
           </Link>
         </li>
+        <li>
+          <Link to="/admin/pricelist" className="flex items-center space-x-2 p-4 hover:bg-cyan-700">
+            <FaRegFileAlt className="text-xl" />
+            <span>PriceList</span>
+          </Link>
+        </li>
       </ul>
     </div>
   );

@@ -18,6 +18,7 @@ import Invoices from "./clientportal/pages/Invoices";
 import Orders from "./clientportal/pages/Orders";
 import Products from "./clientportal/pages/Products";
 import CliSidebar from "./clientportal/components/CliSidebar";
+import PriceList from "./admin/pages/PriceList";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function RouteWithNavbar() {
                   <Route path="compliance" element={<Compliance />} />
                   <Route path="analytics" element={<Analytics />} />
                   <Route path="reports" element={<Reports />} />
+                  <Route path="PriceList" element={<PriceList />} />
                 </Routes>
               </div>
             </div>
